@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="call-start">
+            <input placeholder="Enter username..."
+                    type="text" 
+                    id="username-input" /><br>
+        <div id="buttons">
+            <button onclick="sendUsername()">Create Id</button>
+            <button onclick="startCall()">Start Call</button>
+            <button onclick="joinCall()">Join Call</button>
+        </div>
+        </div>
+        <div id="video-call-div">
+            <video muted id="local-video" autoplay></video>
+            <video id="remote-video" autoplay></video>
+            <div class="call-action-div">
+                <button onclick="muteVideo()" class="w-button_icon" id="mutevideo"><img src= "videoff.png" alt="Video off"></button>
+                <button onclick="muteAudio()" class="w-button_icon" id="muteaudio"><img src="micoff.png" alt="Mic off"></button>
+                <button onclick="endCall()" class="w-button_icon" id="endcall"><img src="endcall.jpg" alt="End Call"></button>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+
+</html>

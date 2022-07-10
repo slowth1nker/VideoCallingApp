@@ -1,0 +1,72 @@
+body{
+    background-image: url(home_page.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#call-start{
+    text-align: center;
+    padding-top: 15%;
+}
+#buttons {
+    padding-top: 10px;
+    margin-top: 20 px;
+}
+#video-call-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#local-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 16px;
+    border-radius: 16px;
+    max-width: 20%;
+    max-height: 20%;
+    background: #ffffff;
+}
+
+#remote-video {
+    background: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+.call-action-div {
+    position: absolute;
+    left: 45%;
+    bottom: 32px;
+}
+
+button {
+    cursor: pointer;
+    margin-left: 5px;
+}
+input{
+    width: 300px;
+}
+img{
+    width: 50%;
+    height: 50%;
+    padding: 0 0 0 0;
+}
+.w-button {
+    padding: 7px 15px 8px 15px;
+    border: none;
+    font-family:"open_sans_lightregular";
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #ffffff;
+}
+.w-button_icon{
+    padding: 0px;
+}
